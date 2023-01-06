@@ -1,0 +1,12 @@
+@import 'variables';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $familyP;
+    font-size: $fontP;
+    
+}
+html,body{
+    height: 100%;
+}
