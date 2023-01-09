@@ -6,12 +6,14 @@
   background-color: $Very-lg-blue;
   width: 100%;
   height: 100vh;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
     .app-container{
     max-width: $desktop;
-    height: 100%;
     margin: 0 auto;
-    padding: 50px;
+    height: 100%;
     position: relative;
     
   }
