@@ -19,9 +19,9 @@ function hadleNotificationClick(id){
     return (users && users.map((user)=>(
      
      
-        <div>  
+        <div key={user.id}>  
 
-      <button type='button' key={user.id} onClick={()=>hadleNotificationClick(user.id)} className={user.isUnread && 'button--activated'}>
+      <button type='button'   onClick={()=>hadleNotificationClick(user.id)} className={user.isUnread  && 'button--activated'}>
            
            <div className='notification_single'>
            <div className="img">
