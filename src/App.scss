@@ -1,7 +1,6 @@
 
 @import 'sass-componentes/resets.scss';
 
-
 .App{
   background-color: $Very-lg-blue;
   width: 100%;
@@ -23,9 +22,12 @@
       padding: 10px;
       margin: 10px;
       border-radius:10px ;
+      position: relative;
     }
     .button--activated{
       background-color: $Light-g-blue1;
+      cursor: pointer;
+      
     }
   }
 

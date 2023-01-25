@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: $familyP;
     font-size: $fontP;
+    @include tablet(){
+        font-size: 14px;
+    }
     
 }
 html,body{

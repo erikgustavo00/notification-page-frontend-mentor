@@ -1,6 +1,13 @@
 //layout
 $mobile:375px;
 $desktop:1440px;
+$tablet:725px;
+//functions
+@mixin tablet(){ 
+    @media screen and (max-width:$tablet) {
+        @content
+    }
+}  
 
 //colors
 
