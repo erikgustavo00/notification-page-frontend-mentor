@@ -3,7 +3,7 @@ import './Notification.scss';
 import Users from '../../Users'
 import { useState } from 'react'
 
-function Notification(props){
+function Notification(){
   const [users,setUsers] = useState(Users)
 
 function setAllUnread(){
