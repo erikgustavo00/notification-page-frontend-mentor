@@ -6,12 +6,19 @@
     background-color: $White;
     padding: 2%;
     border-radius: 20px;
-    h2{
+    .float--left{
+        float: left;
+        width: 50%;
+        padding: 15px 2%;
+    }
+    .float--right{
         float: left;
         width: 50%;
         padding: 15px 2%;
     }
     .allUnread{
+        background-color: transparent;
+        border: none;
         float: right;
         color: $Grayish-blue;
         cursor: pointer;

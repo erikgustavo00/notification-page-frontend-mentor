@@ -20,7 +20,7 @@ function Notification() {
     return (
       users &&
       users.map((user) => (
-        <div key={user.id}>
+        <div  key={user.id}>
           <button
             type="button"
             onClick={() => hadleNotificationClick(user.id)}
@@ -69,17 +69,21 @@ function Notification() {
 
   return (
     <div className="notification-body">
+      <div className="float--left">
       <h2>
         Notifications{" "}
         <span className="isUnreadLength">
           {users.filter((user) => user.isUnread).length}
         </span>
       </h2>
+      </div>
+      <div className="float--right">
       <button className="allUnread" onClick={() => setAllUnread()}>
         Mark all as read
       </button>
+      </div>
       <div className="clear"></div>
-      <div>{getUser()}</div>
+      <div className="notification--btn">{getUser()}</div>
     </div>
   );
 }

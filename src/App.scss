@@ -14,7 +14,7 @@
     margin: 0 auto;
     position: relative;
     padding: 10px;
-    button{
+    .notification--btn button{
       
       width: 95%;
       background-color: transparent;
@@ -25,7 +25,7 @@
       border-radius:10px ;
       position: relative;
     }
-    .button--activated{
+    button.button--activated{
       background-color: $Light-g-blue1;
       cursor: pointer;
       
